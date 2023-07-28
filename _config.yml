@@ -1,0 +1,33 @@
+title: JaeYoonLee's class room
+description: > # this means to ignore newlines until "baseurl:"
+  Steps to becoming a AI Data Analyst
+permalink: ':title/'
+baseurl: # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: JaeYoon Lee # add your name
+author-img: JAEYOON LEE PHOTO.jpg # add your photo
+about-author: This is my warehouse steps to becoming a AI Data Analyst. Always hungry to keep learning. # add description
+social-github: JaeYoonAI # add your Github handle
+social-linkedin: # add your Linkedin handle
+social-email: minamljy@gmail.com # add your Email address
+
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
