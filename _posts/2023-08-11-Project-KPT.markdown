@@ -3,7 +3,6 @@ layout: post
 title: My First Project KPT
 date: 2023-08-11 20:36:20 +0900
 description: KPT # Add post description (optional)
-img: kpt.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Developer, Project, KPT]
 ---
