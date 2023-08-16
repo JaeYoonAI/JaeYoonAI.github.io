@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2023-08-14-TIL-Finishing Entry Level Web Development Course
+title: 2023-08-14-TIL Finishing Entry Level Web Development Course
 date: 2023-08-14 20:36:20 +0900
 description: Finishing Entry Level Web Development Course # Add post description (optional)
 img: coldplay.png # Add image post (optional)
