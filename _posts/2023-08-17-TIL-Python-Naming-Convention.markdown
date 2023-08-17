@@ -79,7 +79,7 @@ Below is the content of the naming convention.
 * Constant names must be fully capitalized
 * Words in a constant name should be separated by an underscore
 
-</br>
+
 This is jsut a summary of the naming convention, but there is a lot of information when you enter the PEP8 site.
 
 At the VScode Extention. find Autopep8 and install.
