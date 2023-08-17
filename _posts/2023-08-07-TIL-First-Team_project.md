@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TIL 2023-08-07
+title: 2023-08-07 TIL First Team Project
 date: 2023-08-07 20:36:20 +0900
 description: First Team Project # Add post description (optional)
 img: TIL1.png # Add image post (optional)
