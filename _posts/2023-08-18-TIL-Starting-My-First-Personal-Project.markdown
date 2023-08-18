@@ -58,6 +58,7 @@ Brief details of these 3 projects are as follows.
 
 
 I have to complete all of the above in 5 days including the weekend.  
+
 I haven't finished the Python advanced course, so I'm going to finish this first and then start.
 
 I learned various grammars of Python today, but there is a part that I was worried about while learning.
