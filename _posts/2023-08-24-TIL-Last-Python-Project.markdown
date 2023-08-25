@@ -9,10 +9,20 @@ tags: [Class, Python, Algorithm]
 ---
 
 
-Today, I took a zoom class about algorithms from the morning.
+Today, I took a zoom class about algorithms from the morning.  
+I felt the need for computational thinking and how tedious the algorithms were.
 
 
-I'm going to compare what I did yesterday with what I edited while listening to the commentary lecture today.
+After that, I solved the level 1 problem in Programmers for an hour.  
+In the end, I was able to solve only 2 problems.  
+I felt very helpless because the Google spreadsheet showed how well the people with me were doing.
+
+
+But I feel that I have to study harder and will do so in the future.  
+I will cover programmers problems and git integration in another post.
+
+Below are the most difficult problems among the three tasks that I corrected while listening to the lecture.
+It's not finished yet, but I'll try to write down a few things to remember.
 
 <h1>SNS Posting</h1>
 
@@ -108,3 +118,16 @@ def create_post(my_name):
 print(posts)
 
 ```
+
+
+I spent a lot of time listening to lectures about 'class'.  
+But for me, trying to use it was much more helpful in learning.
+
+
+One difficulty was that when 'printing' the 'class', an error occurred and nothing was displayed.  
+But I found out that I can put '\__repr__' in 'class' and 'print' it the way I want.
+
+
+Also, I tried to add a function that can be directly added to 'list' through 'input', but it is still incomplete.
+
+I will post a separate post after rewriting the code completely and neatly.
