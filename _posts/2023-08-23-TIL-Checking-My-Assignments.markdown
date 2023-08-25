@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2023-08-22-TIL 2 Python Projects retrospective
+title: 2023-08-23-TIL 2 Python Projects retrospective
 date: 2023-08-23 19:30:20 +0900
 description: Up&Down Rock-Scissors-Paper # Add post description (optional)
 img: rsp.jpg # Add image post (optional)
