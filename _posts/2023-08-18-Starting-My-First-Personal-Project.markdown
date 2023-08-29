@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2023-08-18-TIL Starting My First Personal Project Using Python
+title: Starting My First Personal Project Using Python
 date: 2023-08-18 20:16:20 +0900
 description: 3 little games using python # Add post description (optional)
 img:  logo-python.png # Add image post (optional)

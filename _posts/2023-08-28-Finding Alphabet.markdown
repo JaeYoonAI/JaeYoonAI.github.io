@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2023-08-28-TIL Find the Alphabet
+title: Find the Alphabet
 date: 2023-08-28 20:30:20 +0900
 description: Find the Alphabet # Add post description (optional)
 img: algo.png # Add image post (optional)

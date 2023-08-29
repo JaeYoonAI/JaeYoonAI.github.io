@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2023-08-16-TIL Start to Learning Python
+title: Start to Learning Python
 date: 2023-08-16 20:36:20 +0900
 description: Start to Learning Python # Add post description (optional)
 img: pycharm.png # Add image post (optional)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2023-08-21-TIL Finishing Advanced Python Grammar
+title: Finishing Advanced Python Grammar
 date: 2023-08-21 20:00:20 +0900
 description: Class and Decorator # Add post description (optional)
 img: logo-python.png # Add image post (optional)

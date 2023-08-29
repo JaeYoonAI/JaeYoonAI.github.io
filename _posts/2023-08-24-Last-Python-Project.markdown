@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2023-08-24-TIL Last Python Project and Algorithm
+title: Last Python Project and Algorithm
 date: 2023-08-24 20:30:20 +0900
 description: Up&Down Rock-Scissors-Paper # Add post description (optional)
 img: logo-python.png # Add image post (optional)

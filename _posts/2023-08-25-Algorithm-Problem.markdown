@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2023-08-25-TIL Algorithm Problems
+title: Algorithm Problems
 date: 2023-08-25 20:30:20 +0900
 description: Up&Down Rock-Scissors-Paper # Add post description (optional)
 img: logo-python.png # Add image post (optional)

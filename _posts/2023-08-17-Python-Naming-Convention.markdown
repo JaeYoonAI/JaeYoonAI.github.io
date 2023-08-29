@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2023-08-17-TIL Python Naming Convention and install on VScode
+title: Python Naming Convention and install on VScode
 date: 2023-08-17 20:16:20 +0900
 description: Python Naming Convention # Add post description (optional)
 img: pythonpep8.png # Add image post (optional)
