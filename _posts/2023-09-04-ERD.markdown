@@ -1,0 +1,14 @@
+---
+layout: post
+title: Design & Building ERD
+date: 2023-09-04 20:30:20 +0900
+description: ERD # Add post description (optional)
+img: logo-python.png # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [ERD, Python]
+---
+
+Today I'm going to talk about 'Linked List'.  
+The concept itself is not difficult to understand, as the picture below shows.
+
+<img src="/assets/img/linked.png" width="620" height="314">
