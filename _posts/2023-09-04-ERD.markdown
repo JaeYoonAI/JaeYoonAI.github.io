@@ -8,7 +8,38 @@ fig-caption: # Add figcaption (optional)
 tags: [ERD, Python]
 ---
 
-Today I'm going to talk about 'Linked List'.  
-The concept itself is not difficult to understand, as the picture below shows.
+I briefly learned about ERD today, one of the measures by which one can be judged as an experienced developer.   
 
-<img src="/assets/img/linked.png" width="620" height="314">
+ERD stands for Entity Relationship Diagram. It is a visual representation used in database design to model the structure of a database system. ERDs are used to define the entities (objects or concepts) within a database, the attributes that describe those entities, and the relationships between them.
+
+Here are the key components of an ERD:
+
+1. Entities: These are the objects or concepts in the database, such as "Customer," "Product," or "Order."
+
+2. Attributes: Attributes are the properties or characteristics that describe entities. For example, a "Customer" entity may have attributes like "Name," "Email," and "Address."
+
+3. Relationships: Relationships depict how entities are connected or related to each other within the database. Common relationship types include one-to-one, one-to-many, and many-to-many.
+
+4. Cardinality: Cardinality defines the number of instances of one entity that can be associated with another entity through a relationship. It helps specify whether a relationship is one-to-one, one-to-many, or many-to-many.
+
+ERDs provide a clear and concise way to communicate the structure and organization of a database system, making them a valuable tool for database designers, developers, and stakeholders to understand and design database schemas.
+
+In an Entity-Relationship Diagram (ERD), primary keys and foreign keys are important concepts used to establish relationships between entities and ensure data integrity within a relational database:
+
+1. Primary Key:
+
+    - A primary key is a unique identifier for each record (row) in a database table.
+    - It ensures that each row in the table has a distinct and unique identifier.
+    - Primary keys are used to uniquely identify records and enforce data integrity constraints.
+    - Typically, primary keys are represented in ERDs by underlining the attribute(s) that compose them.   
+</br>
+
+2. Foreign Key:
+
+    - A foreign key is an attribute or set of attributes in one table that establishes a link to the primary key of another table.
+    - It creates a relationship between two tables in a database, allowing you to connect related data.
+    - Foreign keys enforce referential integrity, ensuring that the values in the foreign key column(s) match the values in the primary key column(s) of the referenced table.
+    - In an ERD, foreign keys are represented as lines connecting one entity to another, indicating the relationship between them.
+
+
+In summary, the primary key uniquely identifies records within a single table, while the foreign key establishes relationships between tables by referencing the primary key of another table. Together, primary keys and foreign keys help maintain data consistency and integrity in a relational database.
