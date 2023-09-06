@@ -8,38 +8,153 @@ fig-caption: # Add figcaption (optional)
 tags: [Stack, Queue, Python]
 ---
 
-I briefly learned about ERD today, one of the measures by which one can be judged as an experienced developer.   
+In Python, a stack and a queue are two common data structures used for managing collections of items, but they operate differently in terms of how items are added and removed:
 
-ERD stands for Entity Relationship Diagram. It is a visual representation used in database design to model the structure of a database system. ERDs are used to define the entities (objects or concepts) within a database, the attributes that describe those entities, and the relationships between them.
+1. Stack:
+   - A stack is a data structure that follows the Last-In-First-Out (LIFO) principle.
+   - It resembles a stack of plates, where the last plate added is the first one to be removed.
+   - In Python, you can implement a stack using a list. You typically use the `append()` method to push items onto the stack and the `pop()` method to remove and retrieve the top item.
 
-Here are the key components of an ERD:
+   Example:
+   ```python
+   stack = []
+   stack.append(1)      # Push 1 onto the stack
+   stack.append(2)      # Push 2 onto the stack
+   top_item = stack.pop()  # Pop the top item (2)
+   ```
 
-1. Entities: These are the objects or concepts in the database, such as "Customer," "Product," or "Order."
+2. Queue:
+   - A queue is a data structure that follows the First-In-First-Out (FIFO) principle.
+   - It resembles a line of people waiting in a queue, where the first person to join the line is the first one to be served.
+   - In Python, you can implement a queue using the `deque` class from the `collections` module, which provides efficient operations for adding and removing elements from both ends of the queue.
+   
+   Example:
+   ```python
+   from collections import deque
 
-2. Attributes: Attributes are the properties or characteristics that describe entities. For example, a "Customer" entity may have attributes like "Name," "Email," and "Address."
+   queue = deque()
+   queue.append(1)          # Enqueue 1
+   queue.append(2)          # Enqueue 2
+   front_item = queue.popleft()  # Dequeue the front item (1)
+   ```
 
-3. Relationships: Relationships depict how entities are connected or related to each other within the database. Common relationship types include one-to-one, one-to-many, and many-to-many.
+In summary, a stack follows the LIFO principle, while a queue follows the FIFO principle. Depending on your specific use case and requirements, you can choose to use either a stack or a queue in Python to manage and manipulate your data.
 
-4. Cardinality: Cardinality defines the number of instances of one entity that can be associated with another entity through a relationship. It helps specify whether a relationship is one-to-one, one-to-many, or many-to-many.
+As above, in Python, 'list' is basically a 'stack' method, and when using a 'queue' method, it can be used by 'import'.   
+However, since we have to consider all languages, let's also look at how to implement it directly through 'class'.
 
-ERDs provide a clear and concise way to communicate the structure and organization of a database system, making them a valuable tool for database designers, developers, and stakeholders to understand and design database schemas.
+To implement a stack in a computer language, you can use various data structures and techniques, but I'll provide a simple example in Python using a list. A stack can be easily implemented using a list with the following basic operations:
 
-In an Entity-Relationship Diagram (ERD), primary keys and foreign keys are important concepts used to establish relationships between entities and ensure data integrity within a relational database:
+1. **Push:** Add an element to the top of the stack.
+2. **Pop:** Remove and return the element from the top of the stack.
+3. **Peek (or Top):** View the element at the top of the stack without removing it.
+4. **isEmpty:** Check if the stack is empty.
 
-1. Primary Key:
+Here's a Python implementation of a stack using a list:
 
-    - A primary key is a unique identifier for each record (row) in a database table.
-    - It ensures that each row in the table has a distinct and unique identifier.
-    - Primary keys are used to uniquely identify records and enforce data integrity constraints.
-    - Typically, primary keys are represented in ERDs by underlining the attribute(s) that compose them.   
-</br>
+```python
+class Stack:
+    def __init__(self):
+        self.items = []
 
-2. Foreign Key:
+    def push(self, item):
+        self.items.append(item)
 
-    - A foreign key is an attribute or set of attributes in one table that establishes a link to the primary key of another table.
-    - It creates a relationship between two tables in a database, allowing you to connect related data.
-    - Foreign keys enforce referential integrity, ensuring that the values in the foreign key column(s) match the values in the primary key column(s) of the referenced table.
-    - In an ERD, foreign keys are represented as lines connecting one entity to another, indicating the relationship between them.
+    def pop(self):
+        if not self.is_empty():
+            return self.items.pop()
+        else:
+            raise IndexError("Pop from an empty stack")
 
+    def peek(self):
+        if not self.is_empty():
+            return self.items[-1]
+        else:
+            raise IndexError("Peek into an empty stack")
 
-In summary, the primary key uniquely identifies records within a single table, while the foreign key establishes relationships between tables by referencing the primary key of another table. Together, primary keys and foreign keys help maintain data consistency and integrity in a relational database.
+    def is_empty(self):
+        return len(self.items) == 0
+
+    def size(self):
+        return len(self.items)
+```
+
+Here's how you can use this `Stack` class:
+
+```python
+stack = Stack()
+
+stack.push(1)
+stack.push(2)
+stack.push(3)
+
+print("Stack:", stack.items)  # Output: Stack: [1, 2, 3]
+
+top_item = stack.pop()
+print("Popped item:", top_item)  # Output: Popped item: 3
+
+print("Stack after pop:", stack.items)  # Output: Stack after pop: [1, 2]
+
+print("Is the stack empty?", stack.is_empty())  # Output: Is the stack empty? False
+
+print("Top item of the stack:", stack.peek())  # Output: Top item of the stack: 2
+
+print("Size of the stack:", stack.size())  # Output: Size of the stack: 2
+```
+
+This Python `Stack` class provides a basic implementation of a stack using a list, but you can adapt the concept to other programming languages by using appropriate data structures and methods based on the language's features and conventions.
+
+<br/>
+
+Below is the implementation of 'queue'.
+
+```python
+class Queue:
+    def __init__(self):
+        self.items = []
+
+    def enqueue(self, item):
+        self.items.append(item)
+
+    def dequeue(self):
+        if not self.is_empty():
+            return self.items.pop(0)
+        else:
+            raise IndexError("Dequeue from an empty queue")
+
+    def is_empty(self):
+        return len(self.items) == 0
+
+    def size(self):
+        return len(self.items)
+```
+
+This `Queue` class provides a basic implementation of a queue using a list with the following operations:
+
+1. **Enqueue:** Add an element to the rear of the queue.
+2. **Dequeue:** Remove and return the element from the front of the queue.
+3. **isEmpty:** Check if the queue is empty.
+4. **Size:** Get the number of elements in the queue.
+
+Here's how you can use this `Queue` class:
+
+```python
+queue = Queue()
+
+queue.enqueue(1)
+queue.enqueue(2)
+queue.enqueue(3)
+
+print("Queue:", queue.items)  # Output: Queue: [1, 2, 3]
+
+front_item = queue.dequeue()
+print("Dequeued item:", front_item)  # Output: Dequeued item: 1
+
+print("Queue after dequeue:", queue.items)  # Output: Queue after dequeue: [2, 3]
+
+print("Is the queue empty?", queue.is_empty())  # Output: Is the queue empty? False
+
+print("Size of the queue:", queue.size())  # Output: Size of the queue: 2
+```
+
+This Python `Queue` class provides a basic implementation of a queue using a list, but you can adapt the concept to other programming languages by using appropriate data structures and methods based on the language's features and conventions. In practice, for more efficient implementations, you might want to use a deque from the `collections` module or utilize specialized queue data structures available in your programming language's standard library.
