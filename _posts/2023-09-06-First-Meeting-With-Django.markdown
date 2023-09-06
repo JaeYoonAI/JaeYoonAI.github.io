@@ -8,38 +8,53 @@ fig-caption: # Add figcaption (optional)
 tags: [Django, Python]
 ---
 
-I briefly learned about ERD today, one of the measures by which one can be judged as an experienced developer.   
-
-ERD stands for Entity Relationship Diagram. It is a visual representation used in database design to model the structure of a database system. ERDs are used to define the entities (objects or concepts) within a database, the attributes that describe those entities, and the relationships between them.
-
-Here are the key components of an ERD:
-
-1. Entities: These are the objects or concepts in the database, such as "Customer," "Product," or "Order."
-
-2. Attributes: Attributes are the properties or characteristics that describe entities. For example, a "Customer" entity may have attributes like "Name," "Email," and "Address."
-
-3. Relationships: Relationships depict how entities are connected or related to each other within the database. Common relationship types include one-to-one, one-to-many, and many-to-many.
-
-4. Cardinality: Cardinality defines the number of instances of one entity that can be associated with another entity through a relationship. It helps specify whether a relationship is one-to-one, one-to-many, or many-to-many.
-
-ERDs provide a clear and concise way to communicate the structure and organization of a database system, making them a valuable tool for database designers, developers, and stakeholders to understand and design database schemas.
-
-In an Entity-Relationship Diagram (ERD), primary keys and foreign keys are important concepts used to establish relationships between entities and ensure data integrity within a relational database:
-
-1. Primary Key:
-
-    - A primary key is a unique identifier for each record (row) in a database table.
-    - It ensures that each row in the table has a distinct and unique identifier.
-    - Primary keys are used to uniquely identify records and enforce data integrity constraints.
-    - Typically, primary keys are represented in ERDs by underlining the attribute(s) that compose them.   
-</br>
-
-2. Foreign Key:
-
-    - A foreign key is an attribute or set of attributes in one table that establishes a link to the primary key of another table.
-    - It creates a relationship between two tables in a database, allowing you to connect related data.
-    - Foreign keys enforce referential integrity, ensuring that the values in the foreign key column(s) match the values in the primary key column(s) of the referenced table.
-    - In an ERD, foreign keys are represented as lines connecting one entity to another, indicating the relationship between them.
+Tomorrow is the day to submit assignments using Django, but I only started taking related lectures today.   
+Solving the algorithm problem was difficult, but in Django, it felt like the difficulty level suddenly increased.   
+I was even more confused, perhaps because I thought I had to listen to the lecture quickly.   
+So far, I've only learned about signing up and logging in, but I need to put in more effort tonight.
 
 
-In summary, the primary key uniquely identifies records within a single table, while the foreign key establishes relationships between tables by referencing the primary key of another table. Together, primary keys and foreign keys help maintain data consistency and integrity in a relational database.
+Below, I wrote down my thoughts and chatGPT on things to keep in mind when learning Django for the first time.
+
+
+1. **Python Knowledge:** Ensure you have a good understanding of Python programming, including data structures, object-oriented programming, and basic syntax. Django is built using Python, so a strong foundation in Python is essential.
+
+2. **MVC Architecture:** Understand the Model-View-Controller (MVC) architectural pattern that Django follows. In Django, it's referred to as Model-View-Template (MVT), where Models represent your data, Views handle the logic and presentation, and Templates define the HTML structure.
+
+3. **Django Documentation:** Django has excellent official documentation. Familiarize yourself with it and use it as your primary reference. The documentation covers everything from installation to advanced features.
+
+4. **Installation and Setup:** Follow the official installation guide for Django. Use a virtual environment to manage project dependencies and isolate your Django projects from each other.
+
+5. **Project Structure:** Learn the basic structure of a Django project, which includes settings, apps, URLs, and templates. Understanding how these components interact is crucial.
+
+6. **Database Configuration:** Django supports various databases. Learn how to configure your chosen database and define models to represent your data. Django's Object-Relational Mapping (ORM) simplifies database interactions.
+
+7. **Views and URL Patterns:** Comprehend how views and URL patterns work together. Views handle HTTP requests and responses, and URL patterns define how URLs map to views.
+
+8. **Templates and HTML/CSS:** Learn how to create templates using Django's template language. It's important to have a good grasp of HTML and CSS for designing your website.
+
+9. **Forms:** Understand how to work with Django forms for user input handling and validation. Django provides powerful form-handling capabilities.
+
+10. **Authentication and Authorization:** Learn how to implement user authentication and authorization using Django's built-in tools. Security is critical when building web applications.
+
+11. **Static and Media Files:** Know how to serve static files like CSS, JavaScript, and images. Additionally, understand how to handle user-uploaded media files.
+
+12. **Middleware:** Familiarize yourself with middleware and how it can be used to process requests and responses globally in your application.
+
+13. **Django Admin:** Django provides an admin interface for managing your application's data. Learn how to customize and secure the admin site.
+
+14. **Version Control:** Use version control systems like Git to track changes in your codebase. This makes collaboration and code management easier.
+
+15. **Testing:** Learn how to write unit tests and integration tests for your Django application. Testing is crucial for maintaining code quality.
+
+16. **Deployment:** Understand the process of deploying a Django application to a production server. Consider using deployment tools like Docker, AWS, or Heroku.
+
+17. **Security:** Pay attention to security best practices, such as protecting against common web vulnerabilities like Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF).
+
+18. **Community and Resources:** Join the Django community by participating in forums, mailing lists, and attending meetups or conferences. There are many online resources and tutorials available.
+
+19. **Projects and Practice:** The best way to learn is by doing. Start with small Django projects and gradually work on more complex applications.
+
+20. **Stay Updated:** Django and web development technologies evolve. Stay updated with the latest Django releases and best practices.
+
+It will be a long journey, but I will have to learn while thinking about the above.
