@@ -633,7 +633,7 @@ table thead th:first-child {
 table tfoot {
   font-size: 14px;
   font-weight: bold;
-  color: #fff;
+  color: #181616;
   background: #d0e4f5;
   background: -webkit-gradient(linear, left top, left bottom, from(#dcebf7), color-stop(66%, #d4e6f6), to(#D0E4F5));
   background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
@@ -650,7 +650,7 @@ table tfoot td {
   max-width: 1250px;
   position: relative;
 }
-
+/* each post background color */
 .post, .article-page {
   background-color: #fff;
 }
@@ -696,6 +696,7 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
+  /* color of sidebar */
   background-color: #ffffff;
 }
 
