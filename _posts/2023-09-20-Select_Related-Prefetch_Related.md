@@ -3,7 +3,7 @@ layout: post
 title: Select_Related, Prefetch_Related
 date: 2023-09-20 20:10:20 +0900
 description: Select_Related, Prefetch_Related # Add post description (optional)
-img: ORM.png # Add image post (optional)
+img: orm-1200.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Django, ORM, Select_Related, Prefetch_Related]
 ---
