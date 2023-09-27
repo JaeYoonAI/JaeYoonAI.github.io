@@ -5,7 +5,7 @@ date: 2023-09-27 20:10:20 +0900
 description: Why is the meaningless () used in Python? # Add post description (optional)
 img: parathesese.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [Python, Why?]
+tags: [Python, Function, Class]
 ---
 
 Last night, it took me four hours to find just one error while working on my assignment. The reason? It was solely because of these "()" parentheses. Many Python programmers use empty "()" quite frequently, and I couldn't help but feel an inexplicable sense of betrayal as I realized I had wasted my time over this tiny detail. So, today, I'm going to write about why this little thing is necessary.
