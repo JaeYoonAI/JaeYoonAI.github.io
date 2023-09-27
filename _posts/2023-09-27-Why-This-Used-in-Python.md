@@ -2,7 +2,7 @@
 layout: post
 title: Why is the meaningless () used in Python?
 date: 2023-09-27 20:10:20 +0900
-description: # Add post description (optional)
+description: Why is the meaningless () used in Python? # Add post description (optional)
 img: parathesese.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Python, Why?]
