@@ -46,8 +46,8 @@ tags: [DRF, TeamProject, ReviewSite]
 | 마이페이지 조회 | GET    | /users/{id}      | 없음                            | 200 OK, 404 Not Found           |
 | 회원 탈퇴      | DELETE | /users/{id}      | 없음                            | 204 No Content, 404 Not Found   |
 | 내가 작성한 리뷰 조회 | GET    | /users/{id}/reviews/{id}      | 없음                      | 200 OK, 404 Not Found           |
-| 리뷰 작성 | POST    | /users/{id}/reviews      | 없음                      | 201 Created, 400 Bad Request           |
-| 리뷰 수정 | POST    | /users/{id}/reviews/{id}      | 없음                      | 200 OK, 400 Bad Request           |
-| 리뷰 삭제 | POST    | /users/{id}/reviews/{id}      | 없음                      | 204 No Content, 404 Not Found           |
+| 리뷰 작성 | POST    | /users/{id}/reviews      | content, star                   | 201 Created, 400 Bad Request           |
+| 리뷰 수정 | PUT    | /users/{id}/reviews/{id}      | 업데이트 내용                  | 200 OK, 400 Bad Request           |
+| 리뷰 삭제 | DELETE    | /users/{id}/reviews/{id}      | 없음                      | 204 No Content, 404 Not Found           |
 | 메인페이지 모든 컨텐츠 조회 | GET    | /contents           | 없음                 | 200 OK, 404 Not Found           |
 | 상세 컨텐츠 조회 | GET    | /contents/{id}           | 없음                 | 200 OK, 404 Not Found           |
