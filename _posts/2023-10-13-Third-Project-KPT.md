@@ -8,7 +8,6 @@ fig-caption: # Add figcaption (optional)
 tags: [Python, DRF, AWS, KPT]
 ---
 
-```markdown
 # Project Overview
 **Project Name:** Alpha-Critic
 Alpha-Critic is a web service that allows users to freely leave ratings, reviews, and evaluations for the latest content in the world of movie music games.
@@ -35,6 +34,3 @@ Alpha-Critic is a web service that allows users to freely leave ratings, reviews
 2. **By Woo-jin Kim:** Thanks to the dedication of my team members, I had the opportunity to learn and contribute. I regret not starting the structural analysis earlier, and I plan to devote more time to studying on weekends.
 3. **By Jung-won Kwak:** I need to work on improving my front-end development skills. Taking over the role came very close to the project deadline, which led to deployment delays. I recognize the need to prepare in advance by acquiring some proficiency in front-end development in case similar situations arise in the future. Despite many shortcomings, I'm grateful for the successful completion of the project.
 
-```
-
-This Markdown document summarizes the project, its goals, challenges, solutions, and reflections in a more organized format.
