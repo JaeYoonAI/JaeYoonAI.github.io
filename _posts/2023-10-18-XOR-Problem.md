@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Solving XOR Problem
-date: 2023-10-18 20:10:20 +0900
+date: 2023-10-18 17:10:20 +0900
 description: Solving XOR Problem # Add post description (optional)
 img: XOR.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
