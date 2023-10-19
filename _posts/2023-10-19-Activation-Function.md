@@ -18,9 +18,9 @@ Here is a table summarizing some common activation functions.
 | Sigmoid              | $\sigma(x) = \frac{1}{1 + e^{-x}}$   | (0, 1)         | Smooth, continuous, outputs in the range (0, 1), used in binary classification and for gating in recurrent neural networks. |
 | Hyperbolic Tangent (tanh) | $\text{tanh}(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$ | (-1, 1) | Similar to sigmoid but centered at 0. It squashes input values to the range (-1, 1). |
 | ReLU (Rectified Linear Unit) | $\text{ReLU}(x) = \max(0, x)$      | $[0, \infty)$      | Simple, efficient, and widely used. It introduces non-linearity by only activating for positive values. Avoids vanishing gradient problem. |
-| Leaky ReLU | $\text{LeakyReLU}(x) = \begin{cases} x & \text{if } x > 0 \\ \alpha x & \text{otherwise} \end{cases}$ | $(-\infty, \infty)$ | Variation of ReLU with a small slope for negative values (\(\alpha > 0\)). Addresses the "dying ReLU" problem. |
+| Leaky ReLU | $\text{LeakyReLU}(x) = \begin{cases} x & \text{if } x > 0 \\ \alpha x & \text{otherwise} \end{cases}$ | $(-\infty, \infty)$ | Variation of ReLU with a small slope for negative values $(\alpha > 0)$. Addresses the "dying ReLU" problem. |
 | ELU (Exponential Linear Unit) | $\text{ELU}(x) = \begin{cases} x & \text{if } x > 0 \\ \alpha(e^{x} - 1) & \text{otherwise} \end{cases}$ | $(-\alpha, \infty)$ | Smooth transition for negative values, addressing vanishing gradient and improving convergence. |
-| Softmax | $\text{Softmax}(x)_i = \frac{e^{x_i}}{\sum_{j}e^{x_j}}$ | (0, 1) | Used in the output layer of classification networks to convert raw scores into probability distribution. Ensures the sum of output probabilities equals 1. |
+| Softmax | $\text{Softmax}(x)_{i}=\frac{e^{x_{i}}}{\sum _{j}e^{x_{j}}}$ | (0, 1) | Used in the output layer of classification networks to convert raw scores into probability distribution. Ensures the sum of output probabilities equals 1. |
 
 
 
