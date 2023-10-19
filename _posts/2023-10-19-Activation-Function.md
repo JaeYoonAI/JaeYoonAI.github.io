@@ -6,7 +6,6 @@ description: Activation Functions in neural networks # Add post description (opt
 img: Neural-Networks-Architecture.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Deep Learning, Activation Function, ReLU, Softmax]
-use_math: true
 ---
 
 In the process of learning machine learning, you will often notice that ReLU is predominantly used as the activation function in hidden layers, and softmax is frequently used in the output layer. Before proceeding with further lectures, we will take a closer look at the different types of activation functions and explore why ReLU and softmax are widely favored choices.
