@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "unicodedecodeerror: 'utf-8' codec can't decode byte 0xb4 in position 29: invalid start byte" because of "한글"
+title: unicodedecodeerror 'utf-8' codec can't decode byte 0xb4 in position 29 invalid start byte because of "한글"
 date: 2023-10-31 20:10:20 +0900
 description: Errors that occur because it is Hangul # Add post description (optional)
 img: hangul.jpg # Add image post (optional)
