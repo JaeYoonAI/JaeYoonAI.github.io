@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Beginning of Machine Learning - Image and Video Processing (whats *t7 files?)
+title: Beginning of Machine Learning - Image and Video Processing (whats .t7 files?)
 date: 2023-10-30 20:10:20 +0900
 description: Image and Video Processing # Add post description (optional)
 img: image8.jpg # Add image post (optional)
