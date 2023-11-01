@@ -3,7 +3,7 @@ layout: post
 title:  numpy.concatenate in detail, including its axis
 date: 2023-11-01 20:10:20 +0900
 description: numpy.concatenate function # Add post description (optional)
-img: image8.jpg # Add image post (optional)
+img: output4.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Python, ML]
 use_math: true
